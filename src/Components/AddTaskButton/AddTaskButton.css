@@ -1,0 +1,15 @@
+.add-task{
+    width: 80%;
+    display: block;
+    margin: 0 auto;
+    background: #2ba9c8;
+    padding: 10px;
+    border: none;
+    outline: none;
+    border-radius: 25px;
+    box-shadow: 5px 5px 10px #2bcac8, -5px -5px 10px #fff;
+    margin-top: 20px;
+    cursor: pointer;
+    font-weight: 700;
+    color: #f3f3f3;
+}

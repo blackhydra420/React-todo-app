@@ -1,0 +1,60 @@
+/* 
+#2b78c8 
+#2b9bc8
+#2bc0c8
+#90dcdc
+#eaf0f0
+*/
+
+.form-container{
+    width: 85%;
+    padding: 10px 10px;
+    background: #2b78c8;
+    border: none;
+    outline: none;
+    margin: 20px auto;
+    border-radius: 14px;
+    box-shadow: 7px 7px 14px #2bc0c8, -7px -7px 14px #fff;
+}
+
+.form-container button{
+    width: 80%;
+    display: block;
+    margin: 20px auto 15px;
+    background: #2ba9c8;
+    padding: 10px;
+    border: none;
+    outline: none;
+    border-radius: 25px;
+    box-shadow: 5px 5px 10px #0872b6, -5px -5px 10px #4b70f7;
+    cursor: pointer;
+    font-weight: 700;
+    color: #f3f3f3;
+}
+.form-control{
+    padding: 0;
+    margin: 15px auto;
+    width: 80%;
+}
+
+.task-input{
+    width: 100%;
+    box-sizing: border-box;
+    padding: 10px 15px;
+    border: none;
+    outline: none;
+    border-radius: 25px;
+    background: #eaf0f0;
+    box-shadow: inset -3px -3px 6px #fff, inset 3px 3px 6px #90dcdc;
+    /* box-shadow: inset -2px -2px 4px rgba(255, 255, 255, 0.5), inset 2px 2px 4px rgba(170, 170, 204, 0.25), inset 5px 5px 10px rgba(170, 170, 204, 0.5), inset -5px -5px 10px #FFFFFF; */
+}
+.description-input{
+    width: 100%;
+    box-sizing: border-box;
+    padding: 10px 15px;
+    border: none;
+    outline: none;
+    border-radius: 25px;
+    background: #eaf0f0;
+    box-shadow: inset -3px -3px 6px #fff, inset 3px 3px 6px #90dcdc;
+}

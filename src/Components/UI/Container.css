@@ -1,0 +1,8 @@
+.container{
+    width: 400px;
+    height: 600px;
+    border: none;
+    outline: none;
+    box-shadow: 28px 28px 56px #c6e8e7,
+                -28px -28px 56px #fff;
+}

@@ -1,0 +1,87 @@
+
+:root{
+    --task-container-default-color: #2b78c8;
+    --task-container-checked-color: #e7c036;
+    --task-description-checked-color: #365a80;
+    --task-description-default-color: #abebfa;
+    --task-title-checked-color: #151b31;
+    --task-title-default-color: white;
+    --task-cancel-checked-neumorphis-light: #ffdd3e;
+    --task-cancel-default-neumorphis-light: #318ae6;
+    --task-cancel-checked-neumorphis-dark: #c4a32e;
+    --task-cancel-default-neumorphis-dark: #2566aa;
+}
+
+.task-container{
+    width: 85%;
+    padding: 10px 10px;
+    /* background: #2b78c8; */
+    /* background: var(--task-container-default-color); */
+    border: none;
+    outline: none;
+    margin: 20px auto;
+    border-radius: 14px;
+    box-shadow: 7px 7px 14px #2bc0c8, -7px -7px 14px #fff;
+    display: flex;
+}
+
+.task-data{
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.task-data h2{
+    margin: 0;
+}
+.task-title{
+    /* color: white; */
+    font-size: 18px;
+    padding: 5px 15px 2.5px;
+}
+.task-description{
+    /* color:rgb(241, 228, 228); */
+    /* color: #abebfa; */
+    font-size: 13px;
+    font-weight: 600;
+    padding: 2.5px 15px 5px;
+}
+
+.task-actions{
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items: center;
+}
+.task-done{
+    background:#6b9ffd;
+    border: none;
+    outline: none;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    color: white;
+    margin-bottom: 7px;
+    box-shadow:  4px 4px 7px #2566aa,
+             -4px -4px 7px #318ae6;
+    cursor: pointer;
+}
+.task-done:hover{
+    background: linear-gradient(145deg, #608fe4, #72aaff);
+}
+
+.task-cancel{
+    background: #8f9000;
+    border: none;
+    outline: none;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    color: white;
+    /* box-shadow:  4px 4px 7px #2566aa, -4px -4px 7px #318ae6; */
+    cursor: pointer;
+}
+.task-cancel:hover{
+    background: linear-gradient(145deg, #818200, #999a00);
+}
